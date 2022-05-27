@@ -1,0 +1,362 @@
+<?xml version="1.0" ?>
+<table title="list_1">
+	<columns>
+		<column title="Product" type_of_data="str"/>
+		<column title="Manufacture" type_of_data="str"/>
+		<column title="UMN" type_of_data="int"/>
+		<column title="Quantity" type_of_data="int"/>
+		<column title="Address" type_of_data="str"/>
+	</columns>
+	<records>
+		<record>
+			<element Product="dress xxs"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="11"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress xs"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="112"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress xs"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="113"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress m"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="114"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress l"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="115"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress xl"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="116"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress xxl"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="117"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress xxxl"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="118"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress xxxxl"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="119"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="dress xxxxxl"/>
+			<element Manufacture="Zara"/>
+			<element UMN="1234567890"/>
+			<element Quantity="110"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="skirt xxs"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="22"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt xs"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="221"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt s"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="222"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt m"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="223"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt l"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="224"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt xl"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="225"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt xxl"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="226"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt xxxl"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="227"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt xxxxl"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="228"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="skirt 5xl"/>
+			<element Manufacture="Berchka"/>
+			<element UMN="0987654321"/>
+			<element Quantity="229"/>
+			<element Address="China"/>
+		</record>
+		<record>
+			<element Product="t-shirt 5xl"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="331"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt 4xl"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="332"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt 3xl"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="333"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt xxl"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="334"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt xl"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="335"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt l"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="336"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt m"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="337"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt s"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="338"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt xs"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="339"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="t-shirt xxs"/>
+			<element Manufacture="Stradivarius"/>
+			<element UMN="5647382910"/>
+			<element Quantity="330"/>
+			<element Address="Korea"/>
+		</record>
+		<record>
+			<element Product="shoes 36"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="1921"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 37"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="192"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 38"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="19"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 39"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="1"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 40"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="19"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 41"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="192"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 42"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="1921"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 43"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="192"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 44"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="19"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="shoes 45"/>
+			<element Manufacture="Gucci"/>
+			<element UMN="19211291"/>
+			<element Quantity="1"/>
+			<element Address="Florence"/>
+		</record>
+		<record>
+			<element Product="trousers xxs"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="2"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers xs"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="20"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers s"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="202"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers m"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="2022"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers l"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="202"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers xl"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="20"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers xxl"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="2"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers xxxl"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="20"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers 4xl"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="202"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="trousers 5xl"/>
+			<element Manufacture="MarkFormel"/>
+			<element UMN="20222202"/>
+			<element Quantity="2022"/>
+			<element Address="Poland"/>
+		</record>
+	</records>
+</table>

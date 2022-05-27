@@ -1,0 +1,411 @@
+<?xml version="1.0" ?>
+<table title="list_2">
+	<columns>
+		<column title="Product" type_of_data="str"/>
+		<column title="Manufacture" type_of_data="str"/>
+		<column title="UMN" type_of_data="int"/>
+		<column title="Quantity" type_of_data="int"/>
+		<column title="Address" type_of_data="str"/>
+	</columns>
+	<records>
+		<record>
+			<element Product="foundation ton_1"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="44"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="foundation ton_2"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="48"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="foundation ton_3"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="52"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="foundation ton_4"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="56"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="foundation ton_5"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="60"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="foundation ton_6"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="64"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="foundation ton_7"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="44"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="foundation ton_8"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="68"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="foundation ton_9"/>
+			<element Manufacture="Kyile_skin"/>
+			<element UMN="24011980"/>
+			<element Quantity="72"/>
+			<element Address="USA"/>
+		</record>
+		<record>
+			<element Product="perfume 1"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="61"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="perfume 2"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="91"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="perfume 3"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="81"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="perfume 4"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="71"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="perfume 5"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="51"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="perfume 6"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="41"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="perfume 7"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="31"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="perfume 8"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="21"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="perfume 9"/>
+			<element Manufacture="Chanel"/>
+			<element UMN="19021979"/>
+			<element Quantity="11"/>
+			<element Address="France"/>
+		</record>
+		<record>
+			<element Product="lipstick color_11"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2022"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_12"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2021"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_13"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2020"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_14"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2019"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_15"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2018"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_16"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2017"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_17"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2016"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_18"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2015"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_19"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2014"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="lipstick color_21"/>
+			<element Manufacture="Belita"/>
+			<element UMN="05012003"/>
+			<element Quantity="2013"/>
+			<element Address="Belarus"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 100"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="1"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 101"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="101"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 102"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="201"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 103"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="301"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 104"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="401"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 105"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="501"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 106"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="601"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 107"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="701"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 108"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="801"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="eye shadow palete 109"/>
+			<element Manufacture="Vitex"/>
+			<element UMN="06032006"/>
+			<element Quantity="901"/>
+			<element Address="Poland"/>
+		</record>
+		<record>
+			<element Product="bb cream b1"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2003"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="bb cream b2"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2003"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="bb cream b3"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2004"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="bb cream b4"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2004"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="bb cream b5"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2005"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="bb cream b6"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2005"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="bb cream b7"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2006"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="bb cream b8"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2006"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="bb cream b9"/>
+			<element Manufacture="Lera_skin"/>
+			<element UMN="23092003"/>
+			<element Quantity="2007"/>
+			<element Address="Ukraine"/>
+		</record>
+		<record>
+			<element Product="cc cream c1"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="2007"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="cc cream c2"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="2007"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="cc cream c3"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="2007"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="cc cream c4"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="2007"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="cc cream c5"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="207"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="cc cream c6"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="207"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="cc cream c7"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="207"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="cc cream c8"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="207"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="cc cream c9"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="207"/>
+			<element Address="Litva"/>
+		</record>
+		<record>
+			<element Product="lll"/>
+			<element Manufacture="Tatana_beaity"/>
+			<element UMN="07082007"/>
+			<element Quantity="207"/>
+			<element Address="Litva"/>
+		</record>
+	</records>
+</table>
