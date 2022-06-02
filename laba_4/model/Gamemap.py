@@ -37,15 +37,10 @@ class World:
                 d = "T!"
             self.list_for_print.pop(count)
             self.list_for_print.insert(count, d)
+            return d
             
         def delete_weed_from_cell(self,count, plant):
             self.list_for_print.pop(count)
-            '''if plant.parameters["type_id"] == 1:
-                self.parameters["symbol_on_map"] = "C"
-            if plant.parameters["type_id"] == 2:
-                self.parameters["symbol_on_map"] = "P"
-            if plant.parameters["type_id"] == 3:
-                self.parameters["symbol_on_map"] = "T"'''
             self.list_for_print.insert(count, plant.parameters["symbol_on_map"])
                
         def check_to_add_in_cell(self):
@@ -57,7 +52,6 @@ class World:
         def print_cell(self):
             if len(self.list_for_print) != 0:
                 return self.list_for_print
-            
             else:
                 return "*"                
 
@@ -142,8 +136,10 @@ class World:
             x = int(new_plant.parameters["coordinates"][0])
             y = int(new_plant.parameters["coordinates"][1])
             self.game_map[x][y].add_plant_on_cell(new_plant)
+            action = 'add successfully'
         else:
-            print("No place!")
+            action = 'add successfully'
+        return action
 
 
     def add_plant_on_game_map(self):
@@ -155,8 +151,10 @@ class World:
             x = int(new_plant.parameters["coordinates"][0])
             y = int(new_plant.parameters["coordinates"][1])
             self.game_map[x][y].add_plant_on_cell(new_plant)
+            action = 'add successfully'
         else:
-            print("No place!")
+            action = 'add successfully'
+        return action
 
     def add_trees_on_game_map(self):
         if self.check_to_add() is True:
@@ -167,14 +165,16 @@ class World:
             x = int(new_plant.parameters["coordinates"][0])
             y = int(new_plant.parameters["coordinates"][1])
             self.game_map[x][y].add_plant_on_cell(new_plant)
+            action = 'add successfully'
         else:
-            print("No place!")
+            action = 'add successfully'
+        return action
+        
 
     def step_print(self):
         for row in self.game_map:
             for Cell in row:
                 print(Cell.print_cell())
-           # print("")
 
     def aging_in_map(self):
         for smth in self.plants:
@@ -224,9 +224,11 @@ class World:
                         tree = tree.grow_up(self.count_of_days)
                     if tree is not None:
                         self.harvest_of_apples += 1
+                        return self.harvest_of_apples
+                        
     def eat_plant_on_map(self):
         for pests in self.plants:
-            if pests.parameters["type_id"] == 2:
+            if pests.parameters["type_id"] == 2 :
                 pests.get_position()
                 for plant_for_eat in self.plants:
                     if plant_for_eat.parameters["type_id"] == 1:
@@ -237,14 +239,14 @@ class World:
                                 self.died_from_pests += 1
                                 self.plants.remove(plant_for_eat)
                                 self.game_map[int(plant_for_eat.parameters["coordinates"][0])][int(plant_for_eat.parameters["coordinates"][1])].remove_smth_from_cell(plant_for_eat)
-            
+                                return self.died_from_pests
 
     def damage_trees_on_map(self):
         for pests in self.plants:
-            if pests.parameters["type_id"] == 3:
+            if pests.parameters["type_id"] == 2:
                 pests.get_position()
                 for plant_for_eat in self.plants:
-                    if plant_for_eat.parameters["type_id"] == 1:
+                    if plant_for_eat.parameters["type_id"] == 3:
                         plant_for_eat.get_position()
                         if int(plant_for_eat.parameters["coordinates"][0]) == int(pests.parameters["coordinates"][0]) and int(plant_for_eat.parameters["coordinates"][1]) == int(pests.parameters["coordinates"][1]):
                             plant_for_eat = pests.attack_plant(plant_for_eat)
@@ -287,24 +289,8 @@ class World:
         for smth in self.plants:
             if smth.parameters["type_id"] == 1 or smth.parameters["type_id"] == 3:
                 smth = smth.water()
-        print("Plants watered!")  #чекаем сработало ли
-
-    def want_to_water_plants(self):
-        print("weather today:", self.weather.parameters["weather_is"])
-        command = ""
-        while command != "y" or command != "n":
-            command = input("water plants? y/n\n")
-            try:
-                if command == "y":
-                    self.commands("water_plants")
-                    break
-                elif command == "n":
-                    print("no water")
-                    break
-                else:
-                    raise()
-            except:
-                print("Wrong command!")
+        action = "Plants watered!"
+        return action #чекаем сработало ли
 
     def life_cycle(self):
         self.weather_today()
@@ -377,12 +363,7 @@ class World:
                     y = int(pests.parameters["coordinates"][1])
                     self.game_map[x][y].remove_smth_from_cell(pests)
                     self.plants.remove(pests)
-                    
-    def spisok(self):
-        for smth in self.plants:
-            print(str(smth.parameters["name"]))
-            
-    
+   
     def weeding(self):
         for plant in self.plants:
             if plant.parameters["type_id"] == 1 or plant.parameters["type_id"] == 2 or plant.parameters["type_id"] == 3:
@@ -415,16 +396,20 @@ class World:
                 plant.parameters["life_points"] = 300
                 plant.parameters["points_to_grow_up"] += 4
                 plant.parameters["illness"] = False
+    
+    def garden_info(self):
+        print("died from pests", self.died_from_pests)  # от вредителей в целом(все что не урожай)
+        print("died from hungry", self.died_from_hungry)
+        print("harvest of vegetables", self.harvest_of_vegetables)
+        print("harvest of fruits", self.harvest_of_apples)
+        print("died from hp", self.died_from_hp)
+        
 
     def commands(self, command):
         try:
             # command = command.split(" ")
             if command == "garden_info":
-                print("died from pests", self.died_from_pests)  # от вредителей в целом(все что не урожай)
-                print("died from hungry", self.died_from_hungry)
-                print("harvest of vegetables", self.harvest_of_vegetables)
-                print("harvest of fruits", self.harvest_of_apples)
-                print("died from hp", self.died_from_hp)
+                self.garden_info()            
                 self.step_print()
             elif command == "weeding":
                 for i in self.plants:

@@ -578,19 +578,6 @@ class Interface(App):
             info_text = f"{quantity_of_records_were_deleted} records where deleted"
         self.open_popup(info_text)
 
-
-
-
-    # CHANGE RECORD
-    """
-    ,______________________________,_________,________,
-    | column | element |           | column  |        |
-    |--------|---------|           | title   |        |
-    | column | element | add       |_________| change |
-    |--------|---------| condition |         |        |
-    |  ...   |   ...   |           | element |        |
-    |________|_________|___________|_________|________|
-    """
     def generate_change_record_widget(self, obj=None):
         self.table_ui()
 

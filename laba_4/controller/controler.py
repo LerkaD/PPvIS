@@ -7,6 +7,12 @@ class Controller:
     def __init__(self):
         self.garden = None
     
+    def setView(self, view):
+        self.view = view
+    
+    def watering_in_map(self):
+        self.garden.watering_in_map()
+    
     def get_weather(self):
         return self.garden.weather.parameters["weather_is"]
     
