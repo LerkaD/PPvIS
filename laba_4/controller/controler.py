@@ -14,7 +14,6 @@ class Controller:
         self.garden.watering_in_map()
     
     def plants_info(self, x, y, z):
-        self.view.plants_info(x, y, z)
         return self.garden.plants_info(x, y, z)
     
     def get_weather(self):
