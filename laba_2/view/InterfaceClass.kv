@@ -1,0 +1,232 @@
+#:import Factory kivy.factory.Factory
+<MainWindow>:
+    Label:
+        text: "Manufactures"
+        font_size: '40sp'
+        pos_hint: {'center_x': .5, 'center_y': .95}
+    GridLayout:
+        cols: 2
+        size_hint: 1, .6
+        pos_hint: {'center_x':.5,'center_y':.5}
+        Button:
+            text: "Create new table"
+            font_size: '20sp'
+            on_release: Factory.NewTablePopup().open()
+        Button:
+            text: "List of tables"
+            font_size: '20sp'
+            on_release: app.check_list_tabel()
+
+<NewTablePopup@Popup>
+    title: 'Create new table'
+    size_hint: .5, .5
+    GridLayout:
+        cols: 1
+        BoxLayout:
+            size_hint: 1,.8
+            pos_hint: {'center_x':.5, 'center_y':.6}
+            TextInput:
+                id: input  
+                hint_text: "Enter table name"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint_y: 1
+        GridLayout:
+            cols: 2
+            size_hint: 1,.2
+            Button:
+                text: "Close the pop-up"
+                on_release: root.dismiss()
+            Button:
+                text: "Create table"
+                on_release: app.create_new_table(input.text)
+                on_press: root.dismiss()
+<PagesButtons@BoxLayout>
+    size_hint_y: 0.1
+    Button:
+        text: "<<"
+        on_release: app.table_page_first()
+    Button:
+        text: "<"
+        on_release: app.table_page_previous()
+    Button:
+        text: ">"
+        on_release: app.table_page_next()
+    Button:
+        text: ">>"
+        on_release: app.table_page_last()
+    Button:
+        text: "Back"
+<ToolseWidget>
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint: 1,.1
+        pos_hint: {'center_x':.5,'center_y':.95}
+        GridLayout:
+            cols: 3
+            Label:
+                text: "Tools"
+                font_size: '15sp'
+                size_hint: .8,.05
+            Label:
+                text: "Lines on page"
+                font_size: '15sp'
+                size_hint: .1,.05
+            Label:
+                text: "Pages"
+                font_size: '15sp'
+                size_hint: .1,.05
+        GridLayout:
+            cols: 8
+            Button:
+                text: "Delite"
+                font_size: '15sp'
+                size_hint: .2,.05
+                on_release: Factory.RemoveRecordWidget().open()
+            Button:
+                text: "Add"
+                font_size: '15sp'
+                size_hint: .2,.05
+                on_release: Factory.AddRecordWidget().open()
+            Button:
+                text: "Search"
+                font_size: '15sp'
+                size_hint: .2,.05
+                on_release: Factory.SearchdWidget().open()
+            Button:
+                text: "Save"
+                font_size: '15sp'
+                size_hint: .2,.05
+                on_release: Factory.SaveWidget().open()
+            Spinner:
+                id: notes_on_page
+                size_hint: .1,.05
+                sync_height: True
+                text: "app.ccurrent_list()"
+                values: ('1','2','3','4','5','6','7','8','9','10')
+                font_size: '15sp'
+            Label:
+                id: count_pages
+                text: "0"
+                font_size: '15sp'
+                size_hint: .1,.05             
+<RemoveRecordWidget@Popup>
+    title:'Delite product'
+    size_hint: .6, .3
+    BoxLayout:
+        size_hint: 1,.8
+        poshint: {'center_x':.5, 'center_y':.7}
+        GridLayout:
+            cols: 1
+            size_hint: 1,.8
+            Spinner:
+                id: remove_element
+                text: "Select title"
+                values: ('Product','Manufacture','UMN','Quantity','Address')
+                font_size: '15sp'
+                size_hint: .1,.7
+                sync_height:True
+            TextInput:
+                id: input_remove
+                hint_text: "Enter product name"
+            GridLayout:
+                cols:2
+                Button:
+                    text:"Remove"
+                    size_hint: 1,.3
+                    on_release: app.table_tool_remove_record(root.ids.remove_element.text, root.ids.input_remove.text)
+                Button:
+                    text:"Close the pop-up"
+                    size_hint: 1,.3
+                    on_release: root.dismiss()
+
+<AddRecordWidget@Popup>
+    title:'Add product'
+    size_hint: .8, .4
+    GridLayout:
+        cols: 1
+        size_hint: 1,.8
+        poshint: {'center_x':.5, 'center_y':.7}
+        GridLayout:
+            cols: 5
+            size_hint: 1,.8
+            TextInput:
+                id:product_n
+                hint_text: "Enter product name"
+            TextInput:
+                id: manufacture_n
+                hint_text: "Enter manufacture name"
+            TextInput:
+                id: manifacture_unp
+                hint_text: "Enter manifacture UNP"
+            TextInput:
+                id: quantility
+                hint_text: "Enter quantility in stock"
+            TextInput:
+                id: address
+                hint_text: "Enter address"
+        GridLayout:
+            cols:2
+            Button:
+                text:"Add product"
+                size_hint: 1,.4
+                on_release: Factory.Successadding().open()
+                on_press: app.adding_in_table(root.ids.product_n.text,root.ids.manufacture_n.text,root.ids.manifacture_unp.text,root.ids.quantility.text, root.ids.address.text)
+            Button:
+                text:"Close the pop-up"
+                size_hint: 1,.4
+                on_release: root.dismiss()
+                
+<Successadding@Popup>
+    title:'Adding window'
+    size_hint:.3, .2
+    BoxLayout:
+        orientation:"vertical"
+        Label:
+            text:'added successfully'
+            pos_hint:{'center_x':.5,'center_y':.75}
+        Button:
+            text:'Close the popup'
+            size_hint: 1,.5
+            on_release: root.dismiss()
+<SearchdWidget@Popup>
+    title:'Search product'
+    size_hint: .6, .3
+    BoxLayout:
+        size_hint: 1,.8
+        poshint: {'center_x':.5, 'center_y':.7}
+        GridLayout:
+            cols: 1
+            size_hint: 1,.8
+            Spinner:
+                id: search_element
+                text: "Select title"
+                values: ('Product','Manufacture','UMN','Quantity','Address')
+                font_size: '15sp'
+                size_hint: .1,.7
+                sync_height:True
+            TextInput:
+                id: input_search
+                hint_text: "Enter product name"
+            GridLayout:
+                cols:2
+                Button:
+                    text:"Search"
+                    size_hint: 1,.3
+                    on_press: app.table_tool_search_record(root.ids.search_element.text, root.ids.input_search.text)
+                    on_release: root.dismiss()
+                Button:
+                    text:"Close the pop-up"
+                    size_hint: 1,.3
+                    on_release: root.dismiss()
+
+<Openpopup@Popup>
+    title:'Table ifo'
+    size_hint:0.5, 0.3
+    BoxLayout:
+        orientation:"vertical"
+       # Label:
+           # text:text
+        Button:
+            text:'Close'
+            on_release: root.dismiss() 
+                    

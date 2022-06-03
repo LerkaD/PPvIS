@@ -311,6 +311,46 @@ class World:
             pickle.dump(smth, file)
         file.close()
        # print("garden is saved"
+       
+    def get_name(self, x, y, count):
+        name = self.game_map[x][y].all_in_cell[count].parameters["name"]
+        return name
+    
+    def get_age(self, x, y, count):
+        age = self.game_map[x][y].all_in_cell[count].parameters["age"]
+        return age
+    
+    def get_life_points(self, x, y, count):
+        life_points = self.game_map[x][y].all_in_cell[count].parameters["life_points"]
+        return life_points
+    
+    def get_weed(self, x, y, count):
+        weed = self.game_map[x][y].all_in_cell[count].parameters["weed"]
+        return str(weed)
+    
+    def get_points_to_grow(self, x, y, count):
+        points_to_grow = self.game_map[x][y].all_in_cell[count].parameters["start_points"]
+        return str(points_to_grow)
+    
+    def get_illness(self, x, y, count):
+        illness = self.game_map[x][y].all_in_cell[count].parameters["illness"]
+        return str(illness)
+    
+    def get_watered(self, x, y, count):
+        watered = self.game_map[x][y].all_in_cell[count].parameters["watered"]
+        return str(watered)
+    
+    def get_weed(self, x, y, count):
+        weed = self.game_map[x][y].all_in_cell[count].parameters["weed"]
+        return str(weed)
+    
+    def get_damage(self, x, y, count):
+        damage = self.game_map[x][y].all_in_cell[count].parameters["damage"]
+        return str(damage)
+    
+    def get_hungry(self, x, y, count):
+        hungry = self.game_map[x][y].all_in_cell[count].parameters["hungry"]
+        return str(hungry)
 
     def plants_info(self, position_x, position_y, position_z):
         info_storage = list()
@@ -318,36 +358,17 @@ class World:
         y = int(position_y)
         count = int(position_z)
         if int(count) <= len(self.game_map[x][y].all_in_cell):
-            name = self.game_map[x][y].all_in_cell[count].parameters["name"]
-            print("name:" + name)
-            info_storage.append("name: " + name)
-            age = self.game_map[x][y].all_in_cell[count].parameters["age"]
-            print("age:" + str(age))
-            info_storage.append("age: " + str(age))
-            life_points = self.game_map[x][y].all_in_cell[count].parameters["life_points"]
-            print("life points:" + str(life_points))
-            info_storage.append("life points: " + str(life_points))
-            weed = self.game_map[x][y].all_in_cell[count].parameters["weed"]
-            print("weed: " + str(weed))
-            info_storage.append("weed: " + str(weed))
+            info_storage.append("name: " + self.get_name())
+            info_storage.append("age: " + str(self.get_age()))
+            info_storage.append("life points: " + str(self.get_life_points()))
+            info_storage.append("weed: " + str(self.get_weed()))
             if int(self.game_map[x][y].all_in_cell[count].parameters["type_id"]) == 1 or int(self.game_map[x][y].all_in_cell[count].parameters["type_id"]) == 3:
-                points_to_grow = self.game_map[x][y].all_in_cell[count].parameters["start_points"]
-                print("points to grow up :" + str(points_to_grow))
-                info_storage.append("points to grow up: " + str(points_to_grow))
-                illness = self.game_map[x][y].all_in_cell[count].parameters["illness"]
-                print("illness :" + str(illness))
-                info_storage.append("illness: " + str(illness))
-                watered = self.game_map[x][y].all_in_cell[count].parameters["watered"]
-                print("watered :" + str(watered))
-                info_storage.append("watered: " + str(watered))
+                info_storage.append("points to grow up: " + self.get_points_to_grow())
+                info_storage.append("illness: " + self.get_illness())
+                info_storage.append("watered: " + self.get_watered())
             if int(self.game_map[x][y].all_in_cell[count].parameters["type_id"]) == 2:
-                damage = self.game_map[x][y].all_in_cell[count].parameters["damage"]
-                print("damage :" + str(damage))
-                info_storage.append("damage: " + str(damage))
-                hungry = self.game_map[x][y].all_in_cell[count].parameters["hungry"]
-                print("hungry:" + str(hungry))
-                info_storage.append("hungry: " + str(hungry))
-            print("-------------------------------------------")
+                info_storage.append("damage: " + self.get_damage())
+                info_storage.append("hungry: " + self.get_hungry())
             return info_storage
         else:
             raise (print("Wrong coordinates <<z>>"))

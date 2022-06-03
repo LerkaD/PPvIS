@@ -1,8 +1,8 @@
-from view.InterfaceClass import Interface
+from view.InterfaceClass import Interface1
 
 
 def main():
-    Interface().run()
+    Interface1().run()
 
 if __name__ == '__main__':
     main()
