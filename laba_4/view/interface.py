@@ -1,7 +1,7 @@
 import pygame
 from controller.controler import Controller
-from settings import *
-from buttons import AppButton
+from settings.settings import *
+from gui.buttons import AppButton
 import pygame_widgets
 from model.Gamemap import *
 

@@ -1,30 +1,30 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>Relation</id><coordinates><x>426</x><y>80</y><w>30</w><h>240</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;220;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>426</x><y>70</y><w>20</w><h>20</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>356</x><y>300</y><w>170</w><h>100</h></coordinates><panel_attributes>
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>Relation</id><coordinates><x>426</x><y>33</y><w>30</w><h>240</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;220;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>426</x><y>23</y><w>20</w><h>20</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>356</x><y>253</y><w>170</w><h>100</h></coordinates><panel_attributes>
 waiting for user actions
 
 
 action/exit
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>96</x><y>460</y><w>110</w><h>80</h></coordinates><panel_attributes>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>96</x><y>413</y><w>110</w><h>80</h></coordinates><panel_attributes>
 getting information 
-about the entity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>216</x><y>460</y><w>110</w><h>70</h></coordinates><panel_attributes>getting information
+about the entity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>216</x><y>413</y><w>110</w><h>70</h></coordinates><panel_attributes>getting information
 about the garden
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>346</x><y>460</y><w>110</w><h>70</h></coordinates><panel_attributes>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>346</x><y>413</y><w>110</w><h>70</h></coordinates><panel_attributes>
 adding a plant
 
 +do check place
 +do add plant on game map
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>496</x><y>460</y><w>110</w><h>70</h></coordinates><panel_attributes>weeding
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>496</x><y>413</y><w>110</w><h>70</h></coordinates><panel_attributes>weeding
 
 +do weed removal
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>636</x><y>460</y><w>120</w><h>80</h></coordinates><panel_attributes>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>636</x><y>413</y><w>120</w><h>80</h></coordinates><panel_attributes>
 helping plants
 
 + doincrease life
 +do increase points for maturation
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>266</x><y>590</y><w>130</w><h>90</h></coordinates><panel_attributes>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>266</x><y>543</y><w>130</w><h>90</h></coordinates><panel_attributes>
 deleting pests
 
 +do remove pests 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>426</x><y>550</y><w>140</w><h>160</h></coordinates><panel_attributes>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>426</x><y>503</y><w>140</w><h>160</h></coordinates><panel_attributes>
 next day
 
 +do generate weather
@@ -34,31 +34,31 @@ next day
 +do agging
 +do oppurtunity to live
 +exit gamemap state
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>356</x><y>350</y><w>170</w><h>20</h></coordinates><panel_attributes>lw=5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>96</x><y>520</y><w>110</w><h>20</h></coordinates><panel_attributes>lw=5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>216</x><y>500</y><w>110</w><h>20</h></coordinates><panel_attributes>lw=5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>346</x><y>480</y><w>110</w><h>20</h></coordinates><panel_attributes>lw=5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>496</x><y>480</y><w>110</w><h>20</h></coordinates><panel_attributes>lw=5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>636</x><y>480</y><w>120</w><h>20</h></coordinates><panel_attributes>lw=5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>266</x><y>620</y><w>130</w><h>20</h></coordinates><panel_attributes>lw=5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>426</x><y>570</y><w>140</w><h>20</h></coordinates><panel_attributes>lw=5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>136</x><y>340</y><w>240</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;120;10;10;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>340</y><w>120</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;120;10;20;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>340</y><w>210</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>190;110;190;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>386</x><y>390</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>476</x><y>390</y><w>30</w><h>180</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>350</y><w>60</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>40;110;40;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>326</x><y>360</y><w>50</w><h>250</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;230;10;20;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>330</y><w>340</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>314;10;260;10;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>826</x><y>320</y><w>100</w><h>60</h></coordinates><panel_attributes>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>356</x><y>303</y><w>170</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>96</x><y>473</y><w>110</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>216</x><y>453</y><w>110</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>346</x><y>433</y><w>110</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>496</x><y>433</y><w>110</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>636</x><y>433</y><w>120</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>266</x><y>573</y><w>130</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>426</x><y>523</y><w>140</w><h>20</h></coordinates><panel_attributes>lw=5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>136</x><y>293</y><w>240</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;120;10;10;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>293</y><w>120</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;120;10;20;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>293</y><w>210</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>190;110;190;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>386</x><y>343</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>476</x><y>343</y><w>30</w><h>180</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>303</y><w>60</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>40;110;40;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>326</x><y>313</y><w>50</w><h>250</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;230;10;20;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>283</y><w>340</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>314;10;260;10;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>826</x><y>273</y><w>100</w><h>60</h></coordinates><panel_attributes>
 exit
 
 action
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>866</x><y>460</y><w>20</w><h>20</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>866</x><y>370</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>330</y><w>380</w><h>290</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>360;10;10;10;10;270;150;270;150;210</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>520</y><w>160</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;140;50;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>122</x><y>590</y><w>240</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130;220;130;220;90</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>520</y><w>100</w><h>230</h></coordinates><panel_attributes>lt=&lt;-
-m1=0..n</panel_attributes><additional_attributes>10;200;80;200;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>700</y><w>120</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
-m1=0..n</panel_attributes><additional_attributes>10;20;100;20;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>520</y><w>100</w><h>230</h></coordinates><panel_attributes>lt=&lt;-
-m1=0..n</panel_attributes><additional_attributes>10;200;80;200;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>530</y><w>170</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;190;150;190;150;10</additional_attributes></element><element><id>Text</id><coordinates><x>210</x><y>260</y><w>100</w><h>70</h></coordinates><panel_attributes>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>866</x><y>413</y><w>20</w><h>20</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>866</x><y>323</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>283</y><w>380</w><h>290</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>360;10;10;10;10;270;150;270;150;210</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>473</y><w>160</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;140;50;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>122</x><y>543</y><w>240</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130;220;130;220;90</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>473</y><w>100</w><h>230</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;200;80;200;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>653</y><w>120</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;20;100;20;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>473</y><w>100</w><h>230</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;200;80;200;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>483</y><w>170</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;190;150;190;150;10</additional_attributes></element><element><id>Text</id><coordinates><x>210</x><y>213</y><w>100</w><h>70</h></coordinates><panel_attributes>
 saving the current state
 displaying the current state of the garden.
-style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>90</y><w>100</w><h>180</h></coordinates><panel_attributes>
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>440</x><y>43</y><w>100</w><h>180</h></coordinates><panel_attributes>
 load data from file
 weather formation
 watering
 calculation of entity characteristics
 output to the console model changes
-style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>890</x><y>370</y><w>100</w><h>70</h></coordinates><panel_attributes>
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>890</x><y>323</y><w>100</w><h>70</h></coordinates><panel_attributes>
 saving the current state in file.
-style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>830</x><y>340</y><w>100</w><h>20</h></coordinates><panel_attributes>lw=5
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>830</x><y>293</y><w>100</w><h>20</h></coordinates><panel_attributes>lw=5
 </panel_attributes><additional_attributes></additional_attributes></element></diagram>

@@ -1,9 +1,9 @@
-from gui import run_gui_interface
+from gui.gui import run_gui_interface
 import console
 import click
 from click_shell import shell
 from model.Gamemap import World
-from interface import *
+from view.interface import *
 from restore.restore_service import RestoreService
 @click.command()
 @click.option(

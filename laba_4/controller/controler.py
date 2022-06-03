@@ -13,6 +13,10 @@ class Controller:
     def watering_in_map(self):
         self.garden.watering_in_map()
     
+    def plants_info(self, x, y, z):
+        self.view.plants_info(x, y, z)
+        return self.garden.plants_info(x, y, z)
+    
     def get_weather(self):
         return self.garden.weather.parameters["weather_is"]
     
@@ -39,6 +43,7 @@ class Controller:
         
     def step_print(self):
         self.garden.step_print()
+        self.view.step_print()
         
     def commands(self, commands):
         self.garden.commands(commands)

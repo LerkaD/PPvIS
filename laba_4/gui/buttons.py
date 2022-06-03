@@ -1,6 +1,6 @@
 import pygame_widgets
 from pygame_widgets.button import Button
-from settings import *
+from settings.settings import *
 import pygame
 
 class AppButton():
